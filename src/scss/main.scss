@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  display: block;
+}
+
+@import "bootstrap/scss/bootstrap-grid";
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --beige: #f1ddd4;
+  --dark-beige: #e7a98f;
+  --title-font-family: "Priori Acute OT";
+  --content-font-family: "Alegreya";
+  --nav-font-size: 20px;
+  --button-font-size: 28px;
+  --text-font-size: 18px;
+}
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}

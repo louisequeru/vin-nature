@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>eikon parcel starter</title>
+    <title>homepage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
     <link rel="stylesheet" href="https://use.typekit.net/xvv5dyp.css" />
@@ -14,77 +14,234 @@
     />
   </head>
   <body>
-    <extends src="base-layout.html"></extends>
+    <div class="intro-image">
+      <extends src="header.html"></extends>
 
-    <div class="container" class="intro">
-      <div class="row">
-        <div class="col-10 offset-1">catching title</div>
-      </div>
-      <div class="row">
-        <div class="col-4 offset-4">call to action</div>
+      <div class="container" class="intro">
+        <div class="row">
+          <div class="col-10 offset-1">
+            <div class="intro-text">
+              <p class="intro-title">Le chrysathique</p>
+              <p class="intro-slogan">
+                La pureté du valais dans chaque bouteille
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-4 offset-4">
+            <div class="button-intro">
+              <a class="button-white" href="">
+                <p>Découvrir notre domaine</p>
+                <img src="vectors/arrow_white.png" alt="fleche blanche" />
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container" class="philosophy">
+    <div class="container philosophy">
       <div class="row">
-        <div class="col-5">image</div>
-        <div class="col-7">text</div>
+        <div class="col-5">
+          <img
+            class="image-homepage"
+            src="img/image_philo.png"
+            alt="image philosophie"
+          />
+        </div>
+        <div class="col-7">
+          <div class="article-content">
+            <div class="title">
+              <p>Notre philosophie</p>
+            </div>
+            <div class="text">
+              <p class="text-philo">
+                Le domaine Le Chrysatique incarne une philosophie de
+                vinification naturelle et authentique. Chaque cuvée est le fruit
+                d'un profond respect de la terre et de la vigne, sans produits
+                chimiques ni artifices, laissant s’exprimer le terroir dans sa
+                pureté. Ici, le vin est vivant, façonné par les mains du
+                vigneron, et chaque bouteille raconte l’histoire d’un millésime
+                unique. Pour Le Chrysatique, le vin naturel est une rencontre
+                entre l'homme et la nature, un retour aux sources et aux saveurs
+                brutes.
+              </p>
+            </div>
+          </div>
+          <a class="button-black" href="">
+            <p>En savoir plus</p>
+            <img src="vectors/arrow_black.png" alt="fleche noire" />
+          </a>
+        </div>
       </div>
     </div>
 
     <div class="container" class="wines">
       <div class="row">
-        <div class="col-4">title</div>
-      </div>
-      <div class="row">
-        <div class="col-7 offset-1">text</div>
-      </div>
-      <div class="row">
-        <div class="col-5">mockup</div>
-        <div class="col-7">
-          text
-          <a href="vin-rouge.html">vinrouge</a>
+        <div class="col-4 title-news-events">
+          <div class="title">
+            <p class="">Nouveautées</p>
+          </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-5">mockup</div>
-        <div class="col-7">text</div>
+        <div class="col-7 offset-1 text-news-events">
+          <div class="text">
+            <p>
+              Le Chrysathique est reconnu pour son rouge élégant aux arômes de
+              fruits rouges et d'épices, ainsi que pour son blanc frais, aux
+              notes florales et minérales. Chaque cuvée raconte l’histoire du
+              sol et du climat, ainsi que l’amour porté à la vigne.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5 mockup-rouge">
+          <img
+            class="mockup"
+            src="img/mockup_rouge.png"
+            alt="mockup vin rouge"
+          />
+        </div>
+        <div class="col-7 redwine-content">
+          <div class="line-wine"></div>
+          <div class="wine-texts">
+            <p class="wine-title">Pinot noir, Gamay</p>
+            <p class="wine-text">
+              Le Pinot Noir, Gamay est un vin naturel élégant et vibrant, mêlant
+              la finesse du Pinot Noir à la fraîcheur fruitée du Gamay. En
+              bouche, il dévoile des notes de petits fruits rouges et une belle
+              vivacité, offrant une expression pure et authentique du terroir.
+            </p>
+          </div>
+          <div class="button-wine">
+            <a class="button-black" href="vin-rouge.html">
+              <p>Découvir</p>
+              <img src="vectors/arrow_black.png" alt="fleche noire" />
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-5 mockup-blanc">
+          <img
+            class="mockup"
+            src="img/mockup_blanc.png"
+            alt="mockup vin blanc"
+          />
+        </div>
+        <div class="col-7 whitewine-content">
+          <div class="line-wine"></div>
+          <div class="wine-texts">
+            <p class="wine-title">Gewürztraminer</p>
+            <p class="wine-text">
+              Le Gewürztraminer du domaine Le Chrysatique est un vin blanc
+              naturel aux arômes intenses de fleurs et de fruits exotiques. En
+              bouche, il révèle une belle rondeur et des notes subtiles
+              d'épices, offrant une expérience riche et authentique, fidèle à
+              son terroir.
+            </p>
+          </div>
+          <div class="button-wine">
+            <a class="button-black" href="vin-blanc.html">
+              <p>Découvir</p>
+              <img src="vectors/arrow_black.png" alt="fleche noire" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container" class="winemaker">
+    <div class="container winemaker">
       <div class="row">
-        <div class="col-5">image</div>
-        <div class="col-7">text</div>
+        <div class="col-5">
+          <img class="image-homepage" src="img/image_winemaker.png" alt="" />
+          <div class="line-philo-wm"></div>
+        </div>
+        <div class="col-7">
+          <div class="article-content">
+            <div class="title">
+              <p>Marine Suzaz</p>
+            </div>
+            <div class="text">
+              <p class="text-wm">
+                La vigneronne du domaine Le Chrysatique est une passionnée qui
+                se consacre corps et âme à ses vignes, avec un profond respect
+                pour la nature et le vivant. Artisane attentive, elle travaille
+                chaque parcelle comme un jardin, refusant les intrants chimiques
+                pour laisser le terroir s’exprimer pleinement. Animée par
+                l’amour du vin et la quête d’authenticité, elle façonne des
+                cuvées uniques, brutes et vibrantes, où chaque gorgée révèle son
+                engagement et sa sensibilité. Pour elle, le vin est bien plus
+                qu’une boisson : c’est une expression sincère de la terre et de
+                la main qui la cultive.
+              </p>
+            </div>
+          </div>
+          <a class="button-black" href="">
+            <p>En savoir plus</p>
+            <img src="vectors/arrow_black.png" alt="fleche noire" />
+          </a>
+        </div>
       </div>
     </div>
 
     <div class="container" class="events">
       <div class="row">
-        <div class="col-4">title</div>
+        <div class="col-8 title-news-events">
+          <div class="title">
+            <p>Participez à nos événements</p>
+          </div>
+        </div>
       </div>
       <div class="row">
-        <div class="col-7 offset-1">text</div>
+        <div class="col-7 offset-1 text-news-events">
+          <div class="text">
+            <p>
+              Au Chrysathique, chaque bouteille est une célébration de la
+              tradition, de la famille et du respect de la nature, promettant
+              une expérience inoubliable pour tous les amateurs de vin.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row images-ev">
+        <div class="col-5">
+          <img
+            class="image-homepage"
+            src="img/image_ev1.png"
+            alt="image événement 1"
+          />
+        </div>
+        <div class="col-4">
+          <img
+            class="image-ev2"
+            src="img/image_ev2.png"
+            alt="image événement 2"
+          />
+        </div>
+        <div class="col-3">
+          <img
+            class="image-ev3"
+            src="img/image_ev3.png"
+            alt="image événement 3"
+          />
+        </div>
       </div>
       <div class="row">
-        <div class="col-5">image</div>
-        <div class="col-4">image</div>
-        <div class="col-3">image</div>
-      </div>
-      <div class="row">
-        <div class="col-3">button</div>
+        <div class="col-3 button-events">
+          <a class="button-black" href="">
+            <p>En savoir plus</p>
+            <img src="vectors/arrow_black.png" alt="fleche noire" />
+          </a>
+        </div>
       </div>
     </div>
 
-    <div class="container" class="footer">
-      <div class="row">
-        <div class="col-4">text</div>
-        <div class="col-4">text</div>
-        <div class="col-4">text</div>
-      </div>
-    </div>
-
-    <extends src="base-layout-2.html"></extends>
+    <extends src="footer.html"></extends>
 
     <script src="js/main.js" type="module"></script>
   </body>

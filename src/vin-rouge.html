@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <title>eikon parcel starter</title>
+    <title>pinot noir gamay</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="scss/main.scss" />
     <link rel="stylesheet" href="https://use.typekit.net/xvv5dyp.css" />
@@ -14,65 +14,160 @@
     />
   </head>
   <body>
-    <a href="index.html">vfaifhi</a>
-
-    <extends src="base-layout.html"></extends>
+    <extends src="header.html"></extends>
 
     <div class="container" class="red-wine-infos">
-      <div class="row">
-        <div class="col-3">breadcrumbs</div>
-      </div>
-      <div class="row">
-        <div class="col-4">mockup</div>
-        <div class="col-8">title</div>
-      </div>
-      <div class="row">
-        <div class="col-3 offset-4">text</div>
-      </div>
-      <div class="row">
-        <div class="col-4 offset-4">button</div>
-      </div>
-      <div class="row">
-        <div class="col-4 offset-4">button</div>
-      </div>
-      <div class="row">
-        <div class="col-2 offset-4">text</div>
-      </div>
-      <div class="row">
-        <div class="col-2 offset-4">text</div>
-      </div>
-      <div class="row">
-        <div class="col-2 offset-4">text</div>
-      </div>
-      <div class="row">
-        <div class="col-2 offset-4">text</div>
-      </div>
-      <div class="row">
-        <div class="col-2 offset-4">text</div>
-      </div>
-      <div class="row">
-        <div class="col-2 offset-4">logo</div>
-      </div>
-      <div class="row">
-        <div class="col-3 offset-4">button</div>
+      <div class="row details">
+        <div class="col-4">
+          <div class="breadcrumbs">
+            <a href="index.html">
+              <p>Acceuil</p>
+            </a>
+            <p>/</p>
+            <a href="vin-rouge.html">Pinot noir, Gamay</a>
+          </div>
+          <img
+            class="mockup-rouge-detail"
+            src="img/mockup_rouge 1.svg"
+            alt=""
+          />
+        </div>
+        <div class="col-8 wine-details">
+          <div class="line-wine-detail">
+            <div class="title-buttons">
+              <div class="title-price-cl">
+                <p class="title-wine-detail">
+                  Pinot noir, Gamay - millésime 2024
+                </p>
+                <div class="price-cl">
+                  <p>75cl</p>
+                  22.00 CHF
+                </div>
+              </div>
+              <div class="buttons">
+                <a class="button-black button-basket" href="">
+                  <p>Ajouter au panier</p>
+                  <img src="vectors/arrow_black.png" alt="fleche noire" />
+                </a>
+                <a class="button-buy" href="">
+                  <p>Acheter maintenant</p>
+                  <img src="vectors/arrow_black.png" alt="fleche noire" />
+                </a>
+              </div>
+            </div>
+            <div class="essential-infos">
+              <p>Pinot noir, Gamay</p>
+              <p>2024</p>
+              <p>13.7% Vol.</p>
+              <p>AOC Valais</p>
+              <p>Vin nature</p>
+            </div>
+            <div class="image-biosuisse">
+              <img
+                class="logo-biosuisse-detail"
+                src="vectors/logo_biosuisse_detail.svg"
+                alt="logo bio suisse"
+              />
+            </div>
+          </div>
+          <div class="button-detail">
+            <a class="button-black trigger" href="">
+              <div class="button-wine-detail is-visible">
+                <p>En savoir plus</p>
+                <img src="vectors/arrow_black.png" alt="fleche noire" />
+              </div>
+              <div class="button-wine-detail-hover">
+                <div class="detail-button">
+                  <p>En savoir plus</p>
+                  <img class="arrow-down" src="vectors/arrow_down.png" alt="" />
+                </div>
+                <div class="detail-text">
+                  <div class="detail-text-content">
+                    <img
+                      class="detail-icon"
+                      src="vectors/icon_grape.png"
+                      alt="grape"
+                    />
+                    <p>
+                      Vinification sans intrants : macération sur peaux, levures
+                      indigènes, fermentation spontanée, sulfitage minimal voire
+                      nul.
+                    </p>
+                  </div>
+                  <div class="detail-text-content">
+                    <img
+                      class="detail-icon"
+                      src="vectors/icon_mouth.png"
+                      alt="bouche"
+                    />
+                    <p>
+                      En dégustation, le vin révèle une palette aromatique
+                      complexe : des notes de fruits mûrs et d’épices subtiles,
+                      soutenues par une belle acidité et des tanins fins. En
+                      bouche, une texture soyeuse et une longueur persistante
+                      qui expriment toute l’authenticité du terroir.
+                    </p>
+                  </div>
+                  <div class="detail-text-content">
+                    <img
+                      class="detail-icon"
+                      src="vectors/icon_dish.png"
+                      alt="plat"
+                    />
+                    <p>
+                      Ce vin s'accorde parfaitement avec des viandes rouges
+                      grillées, des plats en sauce, ou des fromages affinés. Il
+                      accompagne aussi bien des plats végétariens aux
+                      champignons ou aux légumes rôtis, mettant en valeur ses
+                      notes fruitées et épicées.
+                    </p>
+                  </div>
+                  <div class="detail-text-content">
+                    <img
+                      class="detail-icon"
+                      src="vectors/icon_thermometer.png"
+                      alt="thermometre"
+                    />
+                    <p>
+                      Ce vin doit être servi idéalement entre 14 et 16°C pour
+                      exprimer pleinement ses arômes et sa texture.
+                    </p>
+                  </div>
+                  <div class="detail-text-content">
+                    <img
+                      class="detail-icon"
+                      src="vectors/icon_barrel.png"
+                      alt="tonneau"
+                    />
+                    <p>
+                      Ce vin a un potentiel de garde de 5 à 10 ans, selon les
+                      conditions de conservation. Avec le temps, il développera
+                      des arômes plus complexes et une texture encore plus
+                      harmonieuse.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
     <div class="container">
       <div class="row">
-        <div class="col-12">image</div>
+        <div class="col-12 wineev">
+          <div class="button-ev">
+            <a class="button-white" href="">
+              <p>Venez goûter nos vins</p>
+              <img src="vectors/arrow_white.png" alt="fleche blanche" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-4">text</div>
-        <div class="col-4">text</div>
-        <div class="col-4">text</div>
-      </div>
-    </div>
-
-    <extends src="base-layout-2.html"></extends>
+    <extends src="footer.html"></extends>
 
     <script src="js/main.js" type="module"></script>
   </body>
